@@ -114,7 +114,7 @@ matching algorithm, the collaboration mechanism, and deployment.
 From the team's final report and the git history:
 
 - **The front end, end to end.** Every view of the user, question, matching and collaboration
-  services, the routing and navigation between them, and the styling standardised across the app.
+  services, the routing and navigation between them, and all of the app's CSS.
 - **The collaboration service.** Its overall design, the CodeMirror editor wired to Yjs, and the
   enhancements: syntax highlighting, autocomplete and code execution for eight languages, chosen
   together from one selector.
@@ -138,7 +138,7 @@ From the team's final report and the git history:
 | **Typed API clients**<br><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white"> | Typed clients for the matching service's session endpoints, with shared error handling: [`matchingApi.ts`](https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/frontend/src/api/matchingApi.ts#L138-L195) | [Axios](https://axios-http.com/docs/intro) |
 | **Back-end APIs**<br><img alt="Node.js" src="https://img.shields.io/badge/Node.js-Express-5FA04E?logo=nodedotjs&logoColor=white"> | A random-question endpoint by topic and difficulty, used by the matching service: [`getRandomQuestionEndpoint`](https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/backend/question-service/src/controllers/questionController.ts#L103-L169) | [Express](https://expressjs.com) |
 | **Containers & service networking**<br><img alt="Docker" src="https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white"> | A shared bridge network so services call each other by name: [`docker-compose.yaml`](https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/backend/docker-compose.yaml#L38-L41); CORS on the question service: [`server.ts`](https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/backend/question-service/src/server.ts#L38-L44) | [Compose networking](https://docs.docker.com/compose/how-tos/networking/) |
-| **UI design**<br><img alt="CSS" src="https://img.shields.io/badge/CSS-663399?logo=css&logoColor=white"> | The app's shared styling, about 660 of its 920 lines: [`App.css`](https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/frontend/src/styles/App.css) | [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) |
+| **UI design**<br><img alt="CSS" src="https://img.shields.io/badge/CSS-663399?logo=css&logoColor=white"> | The app's styling, in vanilla CSS: one shared stylesheet for every view, from forms and tables to the editor layout: [`App.css`](https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/frontend/src/styles/App.css) | [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) |
 | **Prototyping in SwiftUI**<br><img alt="SwiftUI" src="https://img.shields.io/badge/SwiftUI-macOS-0D96F6?logo=swift&logoColor=white"> | Milestone 1: every service's screens as a native prototype: [PeerPrepUIPrototype](https://github.com/sp4ce-cowboy/PeerPrepUIPrototype) | [SwiftUI](https://developer.apple.com/documentation/swiftui) |
 | **Team workflow** | A monorepo with branch protection, feature branches and a dev branch merged to main at each milestone; 71 pull requests across the team | — |
 

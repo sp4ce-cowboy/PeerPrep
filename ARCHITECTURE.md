@@ -103,7 +103,7 @@ peerprep/frontend/src
 
 - **Routing** ([`App.tsx`](https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/frontend/src/App.tsx#L23-L55)): login, questions, matching, the session at
   `/collabFull/:sessionId`, profiles and an admin route.
-- **One design system** ([`App.css`](https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/frontend/src/styles/App.css)): buttons, forms, cards, tables, the progress
+- **One design system, in vanilla CSS** ([`App.css`](https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/frontend/src/styles/App.css)): buttons, forms, cards, tables, the progress
   bar and the editor layout, shared by every view.
 - **Not containerised:** unlike the services, the front end stays one Vite app, so the views share
   components and styling.
