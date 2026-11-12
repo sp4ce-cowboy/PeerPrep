@@ -20,7 +20,6 @@ Built by a team of five for NUS CS3219, as four microservices behind a React fro
 
 ![Commits](https://img.shields.io/badge/my%20commits-55-555?style=flat-square&logo=git&logoColor=white)
 ![Pull requests](https://img.shields.io/badge/my%20merged%20PRs-15-555?style=flat-square&logo=github&logoColor=white)
-![Team](https://img.shields.io/badge/team-5-555?style=flat-square)
 [![WakaTime](https://img.shields.io/badge/WakaTime-38%20h-555?style=flat-square&logo=wakatime&logoColor=white)](https://wakatime.com)
 
 </div>
