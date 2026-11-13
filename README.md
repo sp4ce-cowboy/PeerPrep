@@ -127,7 +127,7 @@ From the team's final report and the git history:
   <img width="56%" alt="The Milestone 1 prototype in SwiftUI: Find a Peer" src="docs/images/prototype-swiftui.png" />
 </p>
 
-## Skills shown
+## Skills covered
 
 | Skill | Where it shows (click the links for the code) | Docs |
 |---|---|---|
